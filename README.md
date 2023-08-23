@@ -121,10 +121,28 @@ Here is the gif of the wave propagation process:
 ![pic](https://github.com/XueWuuuu/img_folder/blob/main/test.gif)
 ---
 # Huygens–Fresnel principle to calculate the B-scan
+Based on the Reference "K. N. Ying, C. Y. Ni, L. N. Dai, L. Yuan, W. W. Kan, Z. H. Shen, Multi-mode laser-ultrasound imaging using Time-domain Synthetic Aperture Focusing Technique (T-SAFT), Photoacoustics 27 (2022) 100370. doi:10.1016/j.pacs.2022.100370. URL https://doi.org/10.1016/j.pacs.2022.100370"
+
 ![pic](https://github.com/XueWuuuu/img_folder/blob/main/Appendix1.png)
+
 As shown in figure, a total reflection defect $P(x_P,y_P)$ with radius $r$ in space is built. The excitation and detection are positioned at $E(x_E,y_E)$ and $D(x_E+bias,y_E)$, respectively. Suppose that there is an unknown point $A(x_A,y_A)$ on the defect, the distance $EA$ is defined as $d_1$, and $DA$ is defined as $d_2$. Therefore, the problem can be transformed into finding a point A on P where AP is on the bisector of $\angle EAD$:
 
 $$\frac{\vec{EA}}{\lvert \vec{EA} \rvert}+\frac{\vec{DA}}{\lvert \vec{DA} \rvert} || \vec{AP}.$$
 
 This equation is a quartic equation and difficult to solve. Therefore, we transform this into a minimum problem using the Huygens-Fresnel principle.
 
+$$
+\left\{ \begin{array}{l}
+{d_{\min }} = \min (\sqrt {{{\left( {{x_E} - {x_A}} \right)}^2} + y_A^2}  + \sqrt {{{\left( {{x_E} + bias - {x_A}} \right)}^2} + y_A^2} ). \\
+{\left( {{x_A} - {x_P}} \right)^2} + {\left( {{y_A} - {x_P}} \right)^2} = {r^2}.
+\end{array} \right.
+$$
+
+Then based on the Huygens–Fresnel principle, the ultrasonic propagation can be calculated analytically. The detailed procedure can be found in the appendix of Reference \cite{Ying2022}. Here, we employ its conclusions:
+
+$$
+ data(i,t) = \upsilon(\theta_i, r_i = d_{\min}, t) 
+$$
+   
+where $data\left( {i,t} \right)$ represents the B-scan data, $i$ is the $i$th generation position, ${r_i} = {d_{\min }}$ is the shortest propagation distance from the $i$th generation point. $\theta _i$ is the directional angle along the propagation path. 
+  
