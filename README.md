@@ -112,5 +112,10 @@ Type the following content into the MATLAB command window:
 
 `>>[u,v] = WaveFunctionSov`
 
-It may have the error of no defined function of "Reta", you can open the WaveFunctionSov function and find the "Reta" at the bottom. You can copy the function and save it as a m file
+It may have the error of no defined function of "Reta", you can open the WaveFunctionSov function and find the "Reta" at the bottom. You can copy the function and save it as a m file.
+
+Here is a Wave Propagation map at time = 70 $\mu$ s
 ![pic](https://github.com/XueWuuuu/img_folder/blob/main/FigA1.png)   
+
+Here is the gif of the wave propagation process:
+![pic](https://github.com/XueWuuuu/img_folder/blob/main/test.gif)
