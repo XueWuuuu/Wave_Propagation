@@ -96,6 +96,9 @@ The corresponding calculation process can be found in Reference "J. R. Bernstein
 %              in an infinite amplitude and causing the results to deviate.
 
 %              For simplification when a value is approaching zero and becomes smaller 
+
 %              than Replacement, I utilize Replacement2 to uniformly replace
+
 %              the process of approaching zero, thus avoiding the gradual 
+
 %              diminishment towards zero.
