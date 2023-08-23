@@ -1,4 +1,4 @@
-# Wave_Propagation
+# Introduction of Wave Propagation Function
 This project is for a line source laser ultrasonic generation for a transient line load on a half-space. 
 
 The corresponding calculation process can be found in Reference "J. R. Bernstein, J. B. Spicer, Line source representation for lasergenerated ultrasound in aluminum, Tech. rep. (2000)."
@@ -102,3 +102,12 @@ The corresponding calculation process can be found in Reference "J. R. Bernstein
 %              the process of approaching zero, thus avoiding the gradual 
 
 %              diminishment towards zero.
+
+
+---
+# Use WaveFunctionSov to get a Wave Propagation map
+
+`>>WaveFunctionSov`
+
+`>>[u,v] = WaveFunctionSov`
+![pic](https://github.com/XueWuuuu/img_folder/blob/main/FigA1.png)   
