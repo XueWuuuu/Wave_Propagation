@@ -1,4 +1,4 @@
-%% nitialization
+%% initialization
 clear all
 % close all
 tic;
