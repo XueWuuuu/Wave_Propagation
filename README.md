@@ -106,8 +106,11 @@ The corresponding calculation process can be found in Reference "J. R. Bernstein
 
 ---
 # Use WaveFunctionSov to get a Wave Propagation map
+Type the following content into the MATLAB command window:
 
 `>>WaveFunctionSov`
 
 `>>[u,v] = WaveFunctionSov`
+
+It may have the error of no defined function of "Reta", you can open the WaveFunctionSov function and find the "Reta" at the bottom. You can copy the function and save it as a m file
 ![pic](https://github.com/XueWuuuu/img_folder/blob/main/FigA1.png)   
