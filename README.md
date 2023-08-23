@@ -121,3 +121,10 @@ Here is the gif of the wave propagation process:
 ![pic](https://github.com/XueWuuuu/img_folder/blob/main/test.gif)
 ---
 # Huygens–Fresnel principle to calculate the B-scan
+![pic](https://github.com/XueWuuuu/img_folder/blob/main/Appendix1.png)
+As shown in figure, a total reflection defect $P(x_P,y_P)$ with radius $r$ in space is built. The excitation and detection are positioned at $E(x_E,y_E)$ and $D(x_E+bias,y_E)$, respectively. Suppose that there is an unknown point $A(x_A,y_A)$ on the defect, the distance $EA$ is defined as $d_1$, and $DA$ is defined as $d_2$. Therefore, the problem can be transformed into finding a point A on P where AP is on the bisector of $\angle EAD$:
+
+$$\frac{\vec{EA}}{\lvert \vec{EA} \rvert}+\frac{\vec{DA}}{\lvert \vec{DA} \rvert} || \vec{AP}.$$
+
+This equation is a quartic equation and difficult to solve. Therefore, we transform this into a minimum problem using the Huygens-Fresnel principle.
+
