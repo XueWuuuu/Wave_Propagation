@@ -119,3 +119,5 @@ Here is a Wave Propagation map at time = 70 $\mu$ s
 
 Here is the gif of the wave propagation process:
 ![pic](https://github.com/XueWuuuu/img_folder/blob/main/test.gif)
+---
+# Huygens–Fresnel principle to calculate the B-scan
