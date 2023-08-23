@@ -146,6 +146,6 @@ $$
    
 where $data\left( {i,t} \right)$ represents the B-scan data, $i$ is the i-th generation position, ${r_i} = {d_{\min }}$ is the shortest propagation distance from the i-th generation point. $\theta _i$ is the directional angle along the propagation path. 
 
-You can find this process in _B\_Scan\_Simulation_, here is the result of *longitudinal and shear waves*:
+You can find this process in _B\_Scan\_Simulation_, here is the result of **longitudinal and shear waves**:
 
 ![pic](https://github.com/XueWuuuu/img_folder/blob/main/B-scan%20result.png)
