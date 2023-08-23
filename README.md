@@ -157,5 +157,5 @@ where $data\left( {i,t} \right)$ represents the B-scan data, $i$ is the i-th gen
 You can find this process in _B\_Scan\_Simulation_, here is the result of **longitudinal and shear waves**:
 
 <p align = "center"> 
-<img src="https://github.com/XueWuuuu/img_folder/blob/main/B-scan%20result.png" alt="Image" width="720">
+<img src="https://github.com/XueWuuuu/img_folder/blob/main/B-scan%20result.png" alt="Image" width="480">
 </p>
