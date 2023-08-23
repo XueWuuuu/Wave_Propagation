@@ -115,15 +115,23 @@ Type the following content into the MATLAB command window:
 It may have the error of no defined function of "Reta", you can open the WaveFunctionSov function and find the "Reta" at the bottom. You can copy the function and save it as a m file.
 
 Here is a Wave Propagation map at time = 70 $\mu$ s
-![pic](https://github.com/XueWuuuu/img_folder/blob/main/FigA1.png)   
+
+<p align = "center"> 
+<img src="https://github.com/XueWuuuu/img_folder/blob/main/FigA1.png" alt="Image" width="720">
+</p>
 
 Here is the gif of the wave propagation process:
-![pic](https://github.com/XueWuuuu/img_folder/blob/main/test.gif)
+
+<p align = "center"> 
+<img src="https://github.com/XueWuuuu/img_folder/blob/main/test.gif" alt="Image" width="720">
+</p>
 ---
 # Huygens–Fresnel principle to calculate the B-scan
 Based on the Reference "K. N. Ying, C. Y. Ni, L. N. Dai, L. Yuan, W. W. Kan, Z. H. Shen, Multi-mode laser-ultrasound imaging using Time-domain Synthetic Aperture Focusing Technique (T-SAFT), Photoacoustics 27 (2022) 100370. doi:10.1016/j.pacs.2022.100370. URL https://doi.org/10.1016/j.pacs.2022.100370"
 
-![pic](https://github.com/XueWuuuu/img_folder/blob/main/Appendix1.png)
+<p align = "center"> 
+<img src="https://github.com/XueWuuuu/img_folder/blob/main/Appendix1.png" alt="Image" width="480">
+</p>
 
 As shown in figure, a total reflection defect $P(x_P,y_P)$ with radius $r$ in space is built. The excitation and detection are positioned at $E(x_E,y_E)$ and $D(x_E+bias,y_E)$, respectively. Suppose that there is an unknown point $A(x_A,y_A)$ on the defect, the distance $EA$ is defined as $d_1$, and $DA$ is defined as $d_2$. Therefore, the problem can be transformed into finding a point A on P where AP is on the bisector of $\angle EAD$:
 
@@ -148,4 +156,6 @@ where $data\left( {i,t} \right)$ represents the B-scan data, $i$ is the i-th gen
 
 You can find this process in _B\_Scan\_Simulation_, here is the result of **longitudinal and shear waves**:
 
-![pic](https://github.com/XueWuuuu/img_folder/blob/main/B-scan%20result.png)
+<p align = "center"> 
+<img src="https://github.com/XueWuuuu/img_folder/blob/main/B-scan%20result.png" alt="Image" width="720">
+</p>
