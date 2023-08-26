@@ -125,6 +125,7 @@ Here is the gif of the wave propagation process:
 <p align = "center"> 
 <img src="https://github.com/XueWuuuu/img_folder/blob/main/test.gif" alt="Image" width="720">
 </p>
+
 ---
 # Huygens–Fresnel principle to calculate the B-scan
 Based on the Reference "K. N. Ying, C. Y. Ni, L. N. Dai, L. Yuan, W. W. Kan, Z. H. Shen, Multi-mode laser-ultrasound imaging using Time-domain Synthetic Aperture Focusing Technique (T-SAFT), Photoacoustics 27 (2022) 100370. doi:10.1016/j.pacs.2022.100370. URL https://doi.org/10.1016/j.pacs.2022.100370"
