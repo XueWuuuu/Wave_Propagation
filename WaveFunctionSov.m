@@ -114,8 +114,11 @@ switch Model
 end
 switch WAVE_FUNCTION_SWITCH
     case 1
+        % Singularities are not considered 
         WAVE_FUNCTION3;
     case 2
+        % When (t.^2-sL.^2.*r.^2) goes to 0, singularities will occur.
+        % To avoid these singularities, when (t.^2-sL.^2.*r.^2) -> Replacement, set (t.^2-sL.^2.*r.^2) = Replacement2.
         Replacement = 3e-7; % number small than Replacement will be replaced by Replacement2
         Replacement2 = 1e-9;% for SAFT simulation
         WAVE_FUNCTION4
