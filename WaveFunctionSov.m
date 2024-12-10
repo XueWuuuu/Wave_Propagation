@@ -162,10 +162,10 @@ function [x,y,t,theta,r0] = default_set(varin)
 % default set for x y t theta and r0. The x and y are linear set of 1*501
 % and1*251 (in m) in Cartesian coordinate, and theta and r0 are angle (
 % perpendicular to the surface) and distance in polar coordinates
-global gamT gamL A sT sL cL cT fHigh fHigh2 delt_t mui
-cR=(3348.6559); % ParametersCalculation.m
-cT=(3101.1542);
-cL=(6173.5214);
+global gamT gamL A sT sL cL cT fHigh fHigh2 delt_t mui cR cT cL
+%cR=(3348.6559); % ParametersCalculation.m
+%cT=(3101.1542);
+%cL=(6173.5214);
 A = 1;
 mui = 1;
 switch nargin
